@@ -1,0 +1,106 @@
+body {
+    margin-top: 70px;  
+}
+
+.headings {
+    font-family: 'Gafata', sans-serif;
+    font-size: 2.7rem;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #EAB330;;
+    background: #fff; 
+    opacity: 0.9; 
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+
+.nav-item {
+    font-size: 1.5 rem;
+    font-family: 'Cinzel', serif;
+    padding-right: 5px;
+}
+
+.nav-item-color {
+    color: black;
+}
+
+#intro {
+    position: relative;
+    background-image: url('../img/intro8.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;   
+}
+
+.primary-overlay {
+    background-color: rgba(171, 169, 55, 0.2);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%; 
+    height: 100%; 
+}
+
+.intro-name {
+    margin-top: 250px;
+}
+
+.milos1-image {
+    margin-top: 36%;
+    margin-left: 5%;
+    width: 330px; 
+    height: 340px;  
+}
+
+.about-text {
+    border-left: 7px solid #EAB330;
+    padding: 12px;
+}
+
+.about-button {
+    font-family: 'Gafata', sans-serif;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+.custom-adjustment {
+   font-size: 150px;
+   color: #EAB330;
+}
+
+
+.skill-description {
+    font-family: 'Gafata', sans-serif;
+}
+
+#portfolio {
+    background-color: #E9EAE4;
+    color:dark;  
+}
+
+.portfolio-description {
+    font-family:'Gafata', sans-serif;
+    font-size:1.2rem;   
+}
+
+#footer {
+    background-color: #1f1f14;
+    color: white;
+}
+
+.social-links {
+    width: 100px;
+    
+}
+
+@media(max-width:576px) {
+    nav .container {
+        width: 100%;
+    }
+}
