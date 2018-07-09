@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    box-shadow: 2px 2px 5px #EAB330;;
+    box-shadow: 2px 2px 5px #EAB330;
     background: #fff; 
     opacity: 0.9; 
 }
@@ -29,9 +29,10 @@ body {
 
 #intro {
     position: relative;
-    background-image: url('../img/intro8.png');
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-image: url('https://s15.postimg.cc/jzzpsy2mz/intro8.jpg');
+    background-attachment: fixed;
+    background-size: cover;
     height: 650px;   
 }
 
@@ -51,8 +52,8 @@ body {
 .milos1-image {
     margin-top: 36%;
     margin-left: 5%;
-    width: 310px; 
-    height: 320px;  
+    width: 330px; 
+    height: 340px;  
 }
 
 .about-text {
@@ -88,6 +89,8 @@ a:visited {
     font-family:'Gafata', sans-serif;
     font-size:1.2rem;   
 }
+
+
 
 #footer {
     background-color: #1f1f14;
